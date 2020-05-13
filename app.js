@@ -13,8 +13,8 @@ function inRange() {
 
 function evenNum(num){
     var result = true;
-    for (var i=0; i < numArray.length; i++) {
-        if (numArray[i] % 2 === 0){
+    for (var i=2; i <= Math.ceil(num); i++) {
+        if (num % 2 === 1){
             result = false;
             break;
         }
@@ -44,5 +44,6 @@ function createArray(firstInput, secondInput){
             smallNum += 1
         }
     }
-    
+    document.getElementById('evens').innerHTML = "There are " + numArray.length + " even numbers";
+    document.getElementById('message').innerHTML = numArray; 
 }

@@ -6,6 +6,10 @@ p {
     color: white;
 }
 
+label {
+    color: green;
+}
+
 #container {
     background-color: teal;
     font-size: 15px;
@@ -16,9 +20,7 @@ p {
     margin: 50px 100px;
 }
 
-#formContainer {
-    color: green;
-}
+
 
 button {
     color: yellow;
@@ -31,10 +33,13 @@ button {
 }
 
 input {
-    color: yellow;
     border-radius: 4px;
 }
 
-#result {
-    color: red;
+#evens {
+    color: blue;
+}
+
+#message {
+    color: blue;
 }
