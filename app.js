@@ -22,3 +22,27 @@ function evenNum(num){
     return result;
 }
 
+function createArray(firstInput, secondInput){
+    var numArray = [];
+    var smallNum = 0;
+    var largeNum = 0;
+    if(firstInput < secondInput){
+        smallNum = firstInput
+        largeNum = secondInput
+    }
+    else if(firstInput > secondInput){
+        largeNum = firstInput
+        smallNum = secondInput
+    }
+
+    while(smallNum <= largeNum){
+        if(evenNum(smallNum) == true){
+            numArray.push(smallNum)
+            smallNum += 1
+        }
+        else if(evenNum(smallNum) == false){
+            smallNum += 1
+        }
+    }
+    
+}
