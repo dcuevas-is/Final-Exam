@@ -10,3 +10,15 @@ function inRange() {
         createArray(num1,num2);
     }
 }
+
+function evenNum(num){
+    var result = true;
+    for (var i=0; i < numArray.length; i++) {
+        if (numArray[i] % 2 === 0){
+            result = false;
+            break;
+        }
+    }
+    return result;
+}
+
