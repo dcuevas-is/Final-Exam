@@ -36,6 +36,10 @@ input {
     border-radius: 4px;
 }
 
+#rlabel {
+    color: green;
+}
+
 #evens {
     color: blue;
 }
